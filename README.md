@@ -38,4 +38,19 @@ DELETE /api/Produto/{id}: Exclui produto (JWT).
 
 ## Testes
  Acesse o Swagger em: https://localhost:5001/swagger.
+
+## Exemplo de JSON para inserir produto:
+
+ {
+    "nome": "Maça",
+    "descricao": "Fruta",
+    "preco": 2.5,
+    "quantidadeEstoque": 1
+  }
+
+## Exemplo de JSON para atualizar produto: 
+ 
+ {
+    "quantidadeEstoque": 1
+  }
    
